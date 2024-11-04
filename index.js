@@ -13,6 +13,7 @@ app.use('/api', apiApp);
 app.use('/site', siteApp);
 
 // Start the Discord bot
+
 startBot();
 
 app.listen(config.port, () => {
